@@ -7,11 +7,12 @@ router.get('/user/:id', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-
+// this is the new feature module
 router.post('/user', function(req, res, next) {
   //console.log({"body":req.body});
   res.render('index', { title: 'Express' });
 });
+
 
 module.exports = router;
 // this is first change by devendra
